@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  JDLSlidingTabDemo
+//
+//  Created by 胜炫电子 on 2017/2/11.
+//  Copyright © 2017年 BlueSkyer-25. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//随机色
+#define KRANDOM_COLOR [UIColor colorWithHue: (arc4random() % 256 / 256.0) saturation:((arc4random()% 128 / 256.0 ) + 0.5) brightness:(( arc4random() % 128 / 256.0 ) + 0.5) alpha:1.0]
+
+#endif /* PrefixHeader_pch */
