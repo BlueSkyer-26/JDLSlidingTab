@@ -3,7 +3,7 @@
 //  JDLSlidingTabDemo
 //
 //  Created by apple on 17/4/18.
-//  Copyright © 2017年 BlueSkyer-25. All rights reserved.
+//  Copyright © 2017年 BlueSkyer-26. All rights reserved.
 //
 
 #import "ChildVCThree.h"
@@ -29,7 +29,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"SGPagingView - ChildVCThree - - %ld", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"JDLSlidingTab - ChildVCThree - - %ld", indexPath.row];
 
     return cell;
 }

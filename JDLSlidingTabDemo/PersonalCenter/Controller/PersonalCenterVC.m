@@ -3,7 +3,7 @@
 //  JDLSlidingTabDemo
 //
 //  Created by apple on 2017/6/15.
-//  Copyright © 2017年 BlueSkyer-25. All rights reserved.
+//  Copyright © 2017年 BlueSkyer-26. All rights reserved.
 //
 
 #import "PersonalCenterVC.h"
@@ -28,7 +28,7 @@
 
 static CGFloat const PersonalCenterVCPageTitleViewHeight = 44;
 static CGFloat const PersonalCenterVCNavHeight = 64;
-static CGFloat const PersonalCenterVCTopViewHeight = 200;
+static CGFloat const PersonalCenterVCTopViewHeight = 100;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -71,7 +71,7 @@ static CGFloat const PersonalCenterVCTopViewHeight = 200;
 
         /// pageTitleView
         _pageTitleView = [JDLSlidingTabTitle jdl_SlidingTabViewWithFrame:CGRectMake(0, 0, self.view.frame.size.width, PersonalCenterVCPageTitleViewHeight) delegate:self titleNames:titleArr configure:configure];
-        _pageTitleView.backgroundColor = [UIColor whiteColor];
+        _pageTitleView.backgroundColor = [UIColor cyanColor];
     }
     return _pageTitleView;
 }

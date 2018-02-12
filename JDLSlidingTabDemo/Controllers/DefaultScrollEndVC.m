@@ -3,7 +3,7 @@
 //  JDLSlidingTabDemo
 //
 //  Created by apple on 2017/7/21.
-//  Copyright © 2017年 BlueSkyer-25. All rights reserved.
+//  Copyright © 2017年 BlueSkyer-26. All rights reserved.
 //
 
 #import "DefaultScrollEndVC.h"

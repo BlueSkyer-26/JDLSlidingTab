@@ -2,8 +2,8 @@
 //  ChildVCFull.m
 //  JDLSlidingTabDemo
 //
-//  Created by 胜炫电子 on 2017/10/17.
-//  Copyright © 2017年 BlueSkyer-25. All rights reserved.
+//  Created by https://github.com/BlueSkyer-26 on 2017/10/17.
+//  Copyright © 2017年 BlueSkyer-26. All rights reserved.
 //
 
 #import "ChildVCFull.h"
@@ -41,7 +41,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"SGPagingView - ChildVCFull - - %ld", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"JDLSlidingTab - ChildVCFull - - %ld", indexPath.row];
     return cell;
 }
 

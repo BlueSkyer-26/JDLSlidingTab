@@ -223,12 +223,12 @@
 		821781D820302777006206EE /* JDLSlidingTabTitle */ = {
 			isa = PBXGroup;
 			children = (
-				821781E120303878006206EE /* JDLSlidingTitleButton.h */,
-				821781E220303878006206EE /* JDLSlidingTitleButton.m */,
-				821781DB203027E6006206EE /* JDLSlidingTabConfigure.h */,
-				821781DC203027E6006206EE /* JDLSlidingTabConfigure.m */,
 				821781DE203027F7006206EE /* JDLSlidingTabTitle.h */,
 				821781DF203027F7006206EE /* JDLSlidingTabTitle.m */,
+				821781DB203027E6006206EE /* JDLSlidingTabConfigure.h */,
+				821781DC203027E6006206EE /* JDLSlidingTabConfigure.m */,
+				821781E120303878006206EE /* JDLSlidingTitleButton.h */,
+				821781E220303878006206EE /* JDLSlidingTitleButton.m */,
 			);
 			path = JDLSlidingTabTitle;
 			sourceTree = "<group>";
