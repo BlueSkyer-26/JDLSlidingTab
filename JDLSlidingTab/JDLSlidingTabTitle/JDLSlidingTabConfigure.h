@@ -62,6 +62,8 @@ typedef NS_ENUM(NSInteger,JDLIndicatorScrollStyle) {
 @property (nonatomic, assign) CGFloat indicatorFixedWidth;
 /** 指示器动态样式下宽度，默认为 20.0f；最大宽度并没有做限制，请根据实际情况妥善设置 */
 @property (nonatomic, assign) CGFloat indicatorDynamicWidth;
+/** 指示器需要显示的图片 默认不配置的话是红色下划线 配置的就显示原始图片 */
+@property (nonatomic, strong) UIImage *indicatorImage;
 /** 指示器滚动位置改变样式，默认为 JDLIndicatorScrollStyleDefault */
 @property (nonatomic, assign) JDLIndicatorScrollStyle indicatorScrollStyle;
 

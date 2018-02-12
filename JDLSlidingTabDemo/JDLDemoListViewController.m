@@ -20,6 +20,7 @@
 #import "DefaultFixedVC.h"
 #import "DefaultDynamicVC.h"
 #import "DefaultPopGestureVC.h"
+#import "DefaultImageVC.h"
 
 @interface JDLDemoListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -32,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor =[UIColor cyanColor];
-    self.TitleDataList = @[@"静止样式", @"滚动样式", @"导航栏样式", @"文字渐变效果", @"文字缩放效果", @"微博个人主页", @"滚动结束后加载子视图", @"指示器遮盖样式一", @"指示器遮盖样式二", @"指示器遮盖样式三 + 内容全屏效果", @"指示器固定样式", @"指示器动态样式", @"返回手势处理"];
+    self.TitleDataList = @[@"静止样式", @"滚动样式", @"导航栏样式", @"文字渐变效果", @"文字缩放效果", @"微博个人主页", @"滚动结束后加载子视图", @"指示器遮盖样式一", @"指示器遮盖样式二", @"指示器遮盖样式三 + 内容全屏效果", @"指示器固定样式", @"指示器动态样式", @"返回手势处理",@"indicatorView图片样式"];
     
     [self foundTableView];
 }
@@ -110,8 +111,11 @@
         DefaultDynamicVC *dynamicVC = [[DefaultDynamicVC alloc] init];
         [self.navigationController pushViewController:dynamicVC animated:YES];
 
-    } else {
+    } else if (indexPath.row == 12){
         DefaultPopGestureVC *popGestureVC = [[DefaultPopGestureVC alloc] init];
+        [self.navigationController pushViewController:popGestureVC animated:YES];
+    } else{
+        DefaultImageVC *popGestureVC = [[DefaultImageVC alloc] init];
         [self.navigationController pushViewController:popGestureVC animated:YES];
     }
 }

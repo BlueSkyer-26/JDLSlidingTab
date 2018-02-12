@@ -107,6 +107,13 @@
     return _indicatorFixedWidth;
 }
 
+-(UIImage *)indicatorImage{
+    if (!_indicatorImage) {
+        _indicatorImage =nil;
+    }
+    return _indicatorImage;
+}
+
 - (CGFloat)indicatorDynamicWidth {
     if (_indicatorDynamicWidth <= 0) {
         _indicatorDynamicWidth = 20;

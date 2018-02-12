@@ -22,7 +22,7 @@
 /// scrollView
 @property (nonatomic, strong) UIScrollView *scrollView;
 /// 指示器
-@property (nonatomic, strong) UIView *indicatorView;
+@property (nonatomic, strong) UIImageView *indicatorView;
 /// 底部分割线
 @property (nonatomic, strong) UIView *bottomSeparator;
 /// 保存外界传递过来的标题数组
@@ -141,7 +141,7 @@
 
 - (UIView *)indicatorView {
     if (!_indicatorView) {
-        _indicatorView = [[UIView alloc] init];
+        _indicatorView = [[UIImageView alloc] init];
         if (self.configure.indicatorStyle == JDLIndicatorStyleCover) {
             CGFloat tempIndicatorViewH = [self jdl_heightWithString:[self.btnMArr[0] currentTitle] font:self.configure.titleFont];
             if (self.configure.indicatorHeight > self.jdl_height) {
@@ -172,6 +172,7 @@
             _indicatorView.jdl_bottom = self.jdl_height - indicatorViewH;
         }
         _indicatorView.backgroundColor = self.configure.indicatorColor;
+        _indicatorView.image =self.configure.indicatorImage;
     }
     return _indicatorView;
 }

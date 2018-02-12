@@ -59,6 +59,7 @@
 		8217826820314DAB006206EE /* PersonalCenterTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8217824B20314DAB006206EE /* PersonalCenterTopView.m */; };
 		8217826920314DAB006206EE /* PersonalCenterTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8217824C20314DAB006206EE /* PersonalCenterTopView.xib */; };
 		8217826C20315890006206EE /* JDLSlidingTabContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8217826B20315890006206EE /* JDLSlidingTabContentScrollView.m */; };
+		8217826F203164CA006206EE /* DefaultImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8217826E203164CA006206EE /* DefaultImageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +159,8 @@
 		8217824C20314DAB006206EE /* PersonalCenterTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterTopView.xib; sourceTree = "<group>"; };
 		8217826A20315890006206EE /* JDLSlidingTabContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLSlidingTabContentScrollView.h; sourceTree = "<group>"; };
 		8217826B20315890006206EE /* JDLSlidingTabContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLSlidingTabContentScrollView.m; sourceTree = "<group>"; };
+		8217826D203164CA006206EE /* DefaultImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultImageVC.h; sourceTree = "<group>"; };
+		8217826E203164CA006206EE /* DefaultImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultImageVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +281,8 @@
 				821781F420314D24006206EE /* DefaultTwoCoverVC.m */,
 				821781F620314D24006206EE /* DefaultZoomVC.h */,
 				821781F820314D24006206EE /* DefaultZoomVC.m */,
+				8217826D203164CA006206EE /* DefaultImageVC.h */,
+				8217826E203164CA006206EE /* DefaultImageVC.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -494,6 +499,7 @@
 				8217825220314DAB006206EE /* ChildFourthPopGestureVC.m in Sources */,
 				8217820B20314D25006206EE /* DefaultZoomVC.m in Sources */,
 				821781D120302768006206EE /* main.m in Sources */,
+				8217826F203164CA006206EE /* DefaultImageVC.m in Sources */,
 				8217825020314DAB006206EE /* ChildFourthPopGestureNextVC.m in Sources */,
 				821781C320302768006206EE /* AppDelegate.m in Sources */,
 				821781EB2031448A006206EE /* JDLSlidingTabContent.m in Sources */,
